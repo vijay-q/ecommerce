@@ -1,0 +1,79 @@
+.dashboard-main {
+    padding: 10px;
+    display: flex;
+}
+
+.dashboard-main-inner {
+    display: flex;
+    /* width: 75%; */
+}
+
+.dashboard-center {
+    /* display: flex; */
+    width: 100%;
+}
+
+.left-bar {
+    width: 15%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.center-bar {
+    width: 85%;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.bottom-bar {
+    width: 75%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.right-bar {
+    width: 50%;
+    margin: 5px;
+    background-color: blueviolet;
+    padding: 10px;
+    height: 86vh;
+    overflow: auto;
+}
+
+.left-bar-list{
+    list-style: none;
+    padding: 0;
+}
+
+.left-bar-list li {
+    padding: 5px;
+}
+
+.main-category {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    .main-card {
+      display: inline-block;
+      width: 10rem;
+      margin: 10px;
+    }
+}
+
+.is-active {
+    border: 3px solid rgb(25, 0, 255) !important; 
+}
+
+.sub-card {
+    width: 10rem;
+    cursor: pointer;
+}
+
+.bottom-card {
+    width: 7rem;
+    cursor: pointer;
+}
+
+  
